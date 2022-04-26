@@ -1,0 +1,5 @@
+<button (click)="showComponent()">Create your post</button>
+<app-post></app-post>
+<div class="createPostContainer">
+  <app-create-post *ngIf="show"></app-create-post>
+</div>

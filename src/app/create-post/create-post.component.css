@@ -1,0 +1,9 @@
+.createPost{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
